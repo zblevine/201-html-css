@@ -1,0 +1,40 @@
+body {
+  background-image: url(company_splash_page/bg_body.gif);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.notheader {
+  margin: 10%;
+  display: block;
+}
+
+main {
+  background-color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 10px;
+}
+
+footer {
+  background-color: gray;
+  text-align: center;
+  padding: 10px;
+}
+
+li {
+  display: inline;
+  padding: 50px;
+}
+
+article {
+  text-align: center;
+  padding: 0 10%;
+}
+
+h3 {
+  color: #2266ff;
+}
+
+p {
+  padding-bottom: 30px;
+}

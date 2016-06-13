@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Todo List</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <input type="checkbox" id="left-toggle" />
+    <label for="left-toggle"></label>
+    <main>
+      <div id="left-col">
+        <table id="table1">
+          <tr>
+            <td>All Todos</td>
+            <td><span class="circle">18</span></td>
+          </tr>
+          <tr class="highlight">
+            <td>02/16</td>
+            <td><span class="circle">8</span></td>
+          </tr>
+          <tr>
+            <td>03/16</td>
+            <td><span class="circle">2</span></td>
+          </tr>
+          <tr>
+            <td>04/16</td>
+            <td><span class="circle">1</span></td>
+          </tr>
+          <tr>
+            <td>05/16</td>
+            <td><span class="circle">1</span></td>
+          </tr>
+          <tr>
+            <td>06/16</td>
+            <td><span class="circle">6</span></td>
+          </tr>
+        </table>
+
+        <table id="table2">
+          <tr><td>Completed</td></tr>
+          <tr><td class="done">02/15</td></tr>
+          <tr><td class="done">03/15</td></tr>
+          <tr><td class="done">04/15</td></tr>
+          <tr><td class="done">05/15</td></tr>
+          <tr><td class="done">06/14</td></tr>
+        </table>
+      </div>
+
+      <div id="right-col">
+        <div id="list-head"><h2>02/16</h2><span class="circle">8</span></div>
+        <table>
+          <thead>
+            <tr>
+              <td colspan="2">Add new to do</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <label>
+                  <input type="checkbox" />
+                  <div class="modal">
+                    <div>
+                      <form action="">
+                        <dl>
+                          <dt>Title</dt>
+                          <dd><input type="text" value="Item 1" /></dd>
+                          <dt>Due Date</dt>
+                          <dd>
+                            <select name="Day">
+                              <option selected>16</option>
+                              <option>32</option>
+                              <option>Pi</option>
+                            </select>  /
+
+                            <select name="Month">
+                              <option>Jan</option>
+                              <option>Feb</option>
+                              <option>Mar</option>
+                            </select>  /
+
+                            <select name="Year">
+                              <option>2015</option>
+                              <option>2016</option>
+                            </select>
+                          </dd>
+                          <dt id="desc">Description</dt>
+                          <dd><textarea placeholder="Description"></textarea></dd>
+                        </dl>
+                        <div id="buttons">
+                          <input type="button" value="Save" />
+                          <input type="button" value="Mark As Complete">
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <span>Item 1</span>
+                </label>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><span>Item 2</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="done"><span>Item 3</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="done"><span>Item 4</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="done"><span>Item 5</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><span>Item 6</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><span>Item 7</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><span>Item 8</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><span>Item 9</span></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <title>position</title>
+    <meta charset="UTF-8" />
+
+    <style>
+      #fixed {
+        position: absolute;
+        top: 40px;
+        width: 400px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        padding: 30px 15px;
+        background: #ffffff;
+        box-sizing: border-box;
+        z-index: 1;
+        text-align: center;
+      }
+
+      #yellow {
+        width: 20px;
+        height: 20px;
+        background: #fcfc99;
+        position: absolute;
+        top: -10px;
+        left: -10px;
+      }
+
+      #wholepage {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, .6);
+      }
+    </style>
+  </head>
+
+  <body>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac porta nulla. Cras nibh elit, consequat id lobortis a, posuere ut dolor. Ut vitae porttitor turpis. Ut ipsum erat, interdum a iaculis vel, bibendum ut felis. Aenean at tortor volutpat, volutpat risus vel, cursus sem. Nam vitae maximus magna. Pellentesque interdum, risus ac fermentum faucibus, metus diam rhoncus augue, sed maximus lectus nulla gravida sem. Donec volutpat enim ut eros varius posuere. Suspendisse suscipit neque eu tellus placerat hendrerit.</p>
+
+    <p>Curabitur quis suscipit mi. Mauris consequat, justo eu mollis mollis, erat tortor ultricies orci, eget interdum dolor orci vitae erat. Praesent bibendum mi arcu, eget scelerisque orci dignissim sed. Curabitur pretium sodales lectus ac pulvinar. Curabitur varius tellus non quam interdum convallis ac in mi. Vestibulum venenatis lacus sed purus consequat, id facilisis erat feugiat. Donec pellentesque neque sed varius mattis. Sed ullamcorper congue orci ut dapibus. Ut et lorem sit amet odio interdum pellentesque. Vestibulum egestas pretium tortor nec ornare. Ut hendrerit mauris quis mollis ultricies.</p>
+
+    <p>Pellentesque dignissim nisi velit, in rhoncus sapien consequat eget. Mauris ac molestie ante. Etiam interdum lacus odio, at finibus mi porttitor semper. Praesent nec sapien nec mauris maximus scelerisque ac sed neque. Mauris vitae orci libero. Cras malesuada, tellus vel viverra aliquet, nunc ante condimentum risus, vitae porttitor dolor velit eu est. Quisque purus diam, dictum sed iaculis sed, malesuada quis libero. Nullam ante arcu, volutpat vitae tempus ut, tristique sed nibh.</p>
+
+    <div id="wholepage"></div>
+
+    <div id="fixed">I'm in your way lol
+      <div id="yellow"></div>
+    </div>
+  </body>
+</html>
